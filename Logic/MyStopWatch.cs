@@ -8,6 +8,10 @@ namespace Logic
     {
         public event StopWatchEventHandler Event;
 
+        /// <summary>
+        /// Starts stopwatch.
+        /// </summary>
+        /// <param name="time">Time to wait.</param>
         public void Start(TimeSpan time)
         {
             Thread.Sleep(time);

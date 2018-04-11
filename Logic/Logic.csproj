@@ -43,9 +43,9 @@
   <ItemGroup>
     <Compile Include="BinarySearcher.cs" />
     <Compile Include="Fibonacci.cs" />
-    <Compile Include="Handler1.cs" />
-    <Compile Include="Handler2.cs" />
-    <Compile Include="Handler3.cs" />
+    <Compile Include="Handlers\Handler1.cs" />
+    <Compile Include="Handlers\Handler2.cs" />
+    <Compile Include="Handlers\Handler3.cs" />
     <Compile Include="MyStopWatch.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StopWatchEventArgs.cs" />
